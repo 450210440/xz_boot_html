@@ -1,0 +1,11 @@
+.my_input{
+	border-color: #0aa1ed;		
+	}
+	
+.my_input:focus{
+	/* 	:focus{}匹配元素获取焦点时的样式 */
+	box-shadow: none;
+	/* box-shadow 元素的阴影设置 */
+	border-color:#0AA1ED ;
+}	
+.breadcrumb-item + .breadcrumb-item::before{ content:"|";}
