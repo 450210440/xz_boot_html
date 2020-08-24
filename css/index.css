@@ -1,0 +1,132 @@
+.my-header,.my-footer{
+	width: 100%;
+	border: 0;
+}
+@media (min-width:576px) {
+	.my-header{height: 14rem;}
+	.my-footer{height: 38rem;}
+}
+
+@media (min-width:1200px) {
+	.my-header{height: 10rem;}
+	.my-footer{height: 23rem;}
+}
+/* 轮播图-小圆点*/
+.carousel-indicators li{
+	width:12px;height:12px;
+	border-radius: 50%;
+	margin-left: 0.25rem; margin-right: 0.25rem;
+	background-color: #fff;
+}
+@media (min-width:576px) {
+	.carousel-indicators li{width: 8px;height: 8px;}
+}
+@media (min-width:992px) {
+	.carousel-indicators li{width: 12px;height: 12px;}
+}
+
+.carousel-indicators .active{background-color: #0AA1ED;}
+
+/* 轮播图-左右按钮 */
+.carousel-control-prev,.carousel-control-next{
+	width: 4%;height: 20%;	 
+	background-color: #aaa;
+	border-radius: 0.25rem;		
+	top:40%}
+.carousel-control-prev{left:5px;}		
+.carousel-control-next{right:5px;}	
+
+
+/* 首页推荐 */	
+.container{font: 12px "simhei", "Arial", Helvetica, sans-serif;}
+.container img{cursor: pointer;}	
+.container>div>div>div{position: relative;}
+
+/* 第一行文本 */
+.floor_top{font-size: 24px; border-bottom: 2px solid #D9D9D9;
+	margin-bottom: 10px;padding-bottom: 4px;
+	margin-top: 30px; color: #666;
+}
+
+.top_height{height: 377px;background-color: #E8E8E8;}	
+.bottom_height{height: 233px;background-color: #e8e8e8;}
+
+
+
+.t1:hover,.t2:hover,.t3:hover,.t4:hover,.t5:hover,.t6:hover{
+	transition: 1s;
+	transform: scale(1.05);
+}
+
+
+@media (min-width:576px) {
+	.t1{
+		float: right;
+		margin-right: 17px;
+		margin-top: -255px;
+	}
+	.t2{
+		float: right;
+		margin-right: 30px;
+		margin-top: -230px;
+	}
+	.t3{
+		float: right;
+		margin-right: 20px;
+		margin-top: -140px;	
+	}	
+}
+@media (min-width:768px) {
+	.t1{
+		float: right;
+		margin-right: 60px;
+		margin-top: -216px;
+	}
+	.t2{
+		float: right;
+		margin-right: 80px;
+		margin-top: -210px;
+	}	
+	.t3{
+		float: right;
+		margin-right: 40px;
+		margin-top: -120px;
+	}	
+
+}
+@media (min-width:992px) {
+	.t1{
+		float: right;
+		margin-right: 30px;
+		margin-top: -240px;
+	}
+	.t2{
+		width: 240px;
+		float: right;
+		margin-right: 10px;
+		margin-top: -250px;
+	}
+	.t3{
+		float: right;
+		margin-right: 10px;
+		margin-top: -160px;
+	}		
+}
+@media (min-width:1200px) {
+	.t1{
+		float: right;
+		margin-right: 30px;
+		margin-top: -245px;
+	}
+	.t2{
+		width: 340px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -255px;
+	}
+	.t3{
+		float: right;
+		margin-right: 40px;
+		margin-top: -145px;
+	}	
+}

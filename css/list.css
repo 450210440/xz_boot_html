@@ -1,0 +1,123 @@
+/* 自己写的 */
+.my_bg{background:linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);}
+	
+	
+/* +-号按钮 */	
+.my_btn{width: 24px;height: 24px; font: 32px simhei;
+border: 0; padding: 0; outline: 0;
+line-height: 24px; text-align: center; color: #fff;
+cursor: pointer; border-radius:2px ;
+background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%); 
+}
+
+.my_btn2{width: 16px;height: 16px; font: 12px simhei;
+border: 0; padding: 0; outline: 0;
+line-height: 16px; text-align: center; color: #fff;
+cursor: pointer; border-radius:1px ;	font-weight: 800;
+background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%); 
+}
+
+/* 输入框按钮 */
+.my_input{width: 24px;height: 24px; outline: 0;border: 0;}
+.my_input2{width: 14px;height: 14px; outline: 0;border: 0;}
+
+/* 加入购物车按钮 */
+.my_shop_btn{font: 14px simhei;display:block;
+							width: 100px;height:30px; line-height: 30px;
+							text-align: center;	color: #fff;
+							background: linear-gradient(to bottom, #27b1f6 0%, #0aa1ed 100%);
+							border-radius:3px ; margin-left:8px;
+			}
+/* 鼠标经过购物车按钮时 */
+.my_shop_btn:hover{text-decoration: none; color: #fff;background:#0Aa0ff }
+/* 获取按钮焦点时取出轮廓 */
+.my_btn:focus{outline: 0;}
+.my_btn2:focus{outline: 0;}
+/* 鼠标经过按钮时候背景变黑 */
+.my_btn:hover{background: rgba(0,0,0,0.3);}
+.my_btn2:hover{background: rgba(0,0,0,0.3); color: #fff;}
+/* img缩放 */
+.container>div>div>div>div img:hover{transition: 1s; transform: scale(1.1);}
+
+p{font-family: "microsoft yahei";}
+
+/* 分页栏 */
+.pagination>.page-item>.page-link{height: 25px; line-height: 25px;
+	border-radius: 4px;padding: 0px 9px;background-color: transparent;border-color:#ccc ;
+	color: #0AA1ED;
+	}
+.pagination>.page-item.active>.page-link{background-color: #0AA0Fd;color: #fff;}
+.pagination>.page-item.disabled>.page-link{color: #ccc;}
+
+.pagination>.page-item>.page-link:hover{border-color:#0AA0eD;}
+
+.pagination{height: 41px; line-height: 41px;}
+
+.pagination>.page-item+.page-item{margin-left: 8px;}
+
+
+/* 购物车 清空行 */
+.gwqk{height: 28px;font: 14px simhei;margin-top: 80px;
+	line-height: 28px;padding-left: 5px;color: #b8b8b8;}
+.gwqk>a{color: #B8B8B8;}   
+    
+.border-top-dashed{border-top: 1px dashed #B8B8B8;}   
+.border-bottom-dashed{border-bottom: 1px dashed #B8B8B8;} 
+    
+/* 购物车结算按钮 */
+.shop_car{height: 46px;font: 20px simhei;background:#808080; color: #fff;pa}
+/* 结算按钮 */
+.jsan{color: #fff;display: block;background: linear-gradient(to bottom, #27b1f6 0%, #0aa1ed 100%);
+		width: 75px;height: 46px;line-height: 46px;text-align: center;
+}
+.jsan:hover{color: #fff;background: #0AA0ff;}
+
+
+/* 结算按钮 */
+
+
+/* 然哥写的 */
+/* .my_btn-1{
+	width: 1.5rem;height: 1.5rem;
+	border: 0;
+	padding: 0;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	outline: 0;
+	color: #ddd;
+	font-size: 1rem;
+	font-weight: bolder;
+}	
+
+.my-btn-1:focus{outline: 0;}
+.my-btn-1:hover{background-color: rgba(0,0,0,0.2);}
+.my-input-1{width: 10%;border: 0;outline: 0;color: #555;}
+.my-btn2{
+	display:inline;
+	width: 1rem;height: 1rem;
+	line-height: 1rem;
+	background: #e0e0e0;
+	border-radius: 10%;
+	color: #fff;
+	font-weight: bolder;
+}
+.my-btn2:hover{
+	color: #fff;text-decoration: none;
+	background-color: rgba(0,0,0,0.15);
+}
+.my-input2{
+	width: 20%;
+	border:0;
+	outline: 0;
+	text-align: center;
+}
+.w-35{width: 35%;}
+
+	 */
+	
+	
+	
+
+
+
+
